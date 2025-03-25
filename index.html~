@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAGNU — Free as in Freedom</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #eeeeee;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #990000;
+            padding: 1em;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #b30000;
+            padding: 0.5em;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            border-bottom: 2px solid #b30000;
+            padding-bottom: 0.3em;
+        }
+        footer {
+            background-color: #990000;
+            text-align: center;
+            padding: 1em;
+            margin-top: 3em;
+            color: #ccc;
+        }
+        a {
+            color: #ff4d4d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NAGNU</h1>
+        <p>Not A GNU, but Free as in Freedom</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#philosophy">Philosophy</a>
+        <a href="#download">Download</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About NAGNU</h2>
+            <p>NAGNU is a free software project designed to promote simplicity, transparency, and freedom. Inspired by the GNU project, but with its own dark style and focus on minimalism and user autonomy.</p>
+        </section>
+
+        <section id="philosophy">
+            <h2>Philosophy</h2>
+            <p>We believe in software that respects your freedom, does not spy on you, and is hackable by design. NAGNU is built by and for those who value control over their own computing.</p>
+        </section>
+
+        <section id="download">
+            <h2>Download</h2>
+            <p>You can get the latest release of NAGNU here: nagnu.org/download. All code is open and licensed under the GPLv3.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Want to contribute or ask questions? Email: contact@nagnu.org</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 NAGNU Project — Free as in Freedom. Inspired by GNU (gnu.org).</p>
+    </footer>
+</body>
+</html>
